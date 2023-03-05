@@ -46,7 +46,7 @@ local encrypt_methods_ss = {
 	"aes-256-gcm",
 	"chacha20-ietf-poly1305",
 	"xchacha20-ietf-poly1305"
-	--[[ stream
+	-- stream
 	"none",
 	"plain",
 	"table",
@@ -64,7 +64,7 @@ local encrypt_methods_ss = {
 	"camellia-256-cfb",
 	"salsa20",
 	"chacha20",
-	"chacha20-ietf" ]]
+	"chacha20-ietf"
 }
 
 local encrypt_methods_v2ray_ss = {
