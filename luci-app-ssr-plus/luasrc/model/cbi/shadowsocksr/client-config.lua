@@ -13,7 +13,6 @@ end
 
 local server_table = {}
 local encrypt_methods = {
-	-- ssr
 	"none",
 	"table",
 	"rc4",
@@ -40,13 +39,11 @@ local encrypt_methods = {
 }
 
 local encrypt_methods_ss = {
-	-- aead
 	"aes-128-gcm",
 	"aes-192-gcm",
 	"aes-256-gcm",
 	"chacha20-ietf-poly1305",
 	"xchacha20-ietf-poly1305",
-	-- stream
 	"none",
 	"plain",
 	"table",
@@ -68,10 +65,8 @@ local encrypt_methods_ss = {
 }
 
 local encrypt_methods_v2ray_ss = {
-	-- xray_ss
 	"none",
 	"plain",
-	-- aead
 	"aes-128-gcm",
 	"aes-256-gcm",
 	"chacha20-poly1305",
@@ -82,7 +77,6 @@ local encrypt_methods_v2ray_ss = {
 }
 
 local protocol = {
-	-- ssr
 	"origin",
 	"verify_deflate",
 	"auth_sha1_v4",
@@ -97,7 +91,6 @@ local protocol = {
 }
 
 obfs = {
-	-- ssr
 	"plain",
 	"http_simple",
 	"http_post",
@@ -106,7 +99,6 @@ obfs = {
 }
 
 local securitys = {
-	-- vmess
 	"auto",
 	"none",
 	"aes-128-gcm",
@@ -114,7 +106,6 @@ local securitys = {
 }
 
 local flows = {
-	-- xlts
 	"xtls-rprx-origin",
 	"xtls-rprx-origin-udp443",
 	"xtls-rprx-direct",
