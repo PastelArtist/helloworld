@@ -29,13 +29,13 @@ local encrypt_methods = {
 }
 
 local encrypt_methods_ss = {
-	-- aead
 	"aes-128-gcm",
 	"aes-192-gcm",
 	"aes-256-gcm",
 	"chacha20-ietf-poly1305",
 	"xchacha20-ietf-poly1305",
-	-- stream
+	"none",
+	"plain",
 	"table",
 	"rc4",
 	"rc4-md5",
